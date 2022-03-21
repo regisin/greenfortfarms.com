@@ -1,0 +1,1 @@
+import{S as n,i as o,s as i,t as c,h as l,g as m,L as e,d as f}from"../../chunks/vendor-4269dd28.js";function u(s){let t;return{c(){t=c("the farm")},l(a){t=l(a,"the farm")},m(a,r){m(a,t,r)},p:e,i:e,o:e,d(a){a&&f(t)}}}class h extends n{constructor(t){super();o(this,t,null,u,i,{})}}export{h as default};
