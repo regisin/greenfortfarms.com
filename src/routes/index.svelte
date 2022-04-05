@@ -51,6 +51,6 @@
     {remaining.minutes} minutes 
     {remaining.seconds} seconds 
     {:else}
-    <h2>The time has come!</h2>
+    The time has come!
     {/if}
 </h1>
