@@ -1,6 +1,22 @@
+<script context="module">
+	export async function load({ url, fetch }) {
+        const countDownDate = new Date("May 22, 2022 12:00:00").getTime();
+        const now = new Date().getTime();
+        const timeleft = countDownDate - now;
+		return {
+			props: {
+                timeleft
+			}
+		};
+	}
+
+</script>
+
 <script>
     import { onMount } from 'svelte';
     import { browser } from '$app/env';
+
+    export let timeleft;
 
     let remaining = {
         weeks: 0,
@@ -10,12 +26,9 @@
         seconds: 0,
         done: true
     }
+
     let timer;
 
-    const countDownDate = new Date("May 22, 2022 12:00:00").getTime();
-    const now = new Date().getTime();
-    let timeleft = countDownDate - now;
-    
     onMount(async () => {
         if (browser) {
             timer = setInterval(function() {
@@ -54,3 +67,7 @@
     The time has come!
     {/if}
 </h1>
+
+<img src='/images/countdown1.jpg' alt='Mysterious drone shot' />
+
+<img src='/images/countdown2.jpg' alt='Mysterious front shot' />
