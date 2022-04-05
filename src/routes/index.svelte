@@ -56,7 +56,10 @@
 
 </script>
 
-<h1>
+<h1>The Unveiling</h1>
+
+<img src='/images/countdown1.jpg' alt='Mysterious drone shot' />
+<h2>
     {#if remaining.done === false}
     {remaining.weeks} weeks 
     {remaining.days} days 
@@ -66,8 +69,5 @@
     {:else}
     The time has come!
     {/if}
-</h1>
-
-<img src='/images/countdown1.jpg' alt='Mysterious drone shot' />
-
+</h2>
 <img src='/images/countdown2.jpg' alt='Mysterious front shot' />
