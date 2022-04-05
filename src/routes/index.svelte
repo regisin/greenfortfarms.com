@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ url, fetch }) {
-        const countDownDate = new Date("May 22, 2022 12:00:00").getTime();
+        const countDownDate = new Date("May 25, 2022 18:00:00").getTime();
         const now = new Date().getTime();
         const timeleft = countDownDate - now;
 		return {
@@ -9,7 +9,6 @@
 			}
 		};
 	}
-
 </script>
 
 <script>
