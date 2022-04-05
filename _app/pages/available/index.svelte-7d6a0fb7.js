@@ -1,1 +1,0 @@
-import{S as n,i as l,s as r,t as c,h as o,g as p,L as e,d}from"../../chunks/vendor-4269dd28.js";function u(s){let t;return{c(){t=c("What's Availble (pics and pricing per lb")},l(a){t=o(a,"What's Availble (pics and pricing per lb")},m(a,i){p(a,t,i)},p:e,i:e,o:e,d(a){a&&d(t)}}}class h extends n{constructor(t){super();l(this,t,null,u,r,{})}}export{h as default};

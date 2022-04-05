@@ -1,0 +1,1 @@
+import{S as n,i,s as r,t as d,h,g as c,n as s,d as l}from"../../chunks/index-0be6ca3b.js";function p(e){let t;return{c(){t=d("Dirty Hands (who we are with photos and bio's)")},l(a){t=h(a,"Dirty Hands (who we are with photos and bio's)")},m(a,o){c(a,t,o)},p:s,i:s,o:s,d(a){a&&l(t)}}}class f extends n{constructor(t){super(),i(this,t,null,p,r,{})}}export{f as default};
